@@ -12,3 +12,15 @@
     margin-left: 5%;
     margin-right: 5%
 }
+
+.active {
+  color: yellow;
+}
+
+.disabled {
+  color: grey;
+}
+
+a > .disabled {
+  color: purple;
+}
