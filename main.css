@@ -42,3 +42,7 @@ a > .disabled {
 #iam-blue {
   color: blue;
 }
+
+input {
+  height: 25px;
+}
