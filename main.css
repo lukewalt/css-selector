@@ -4,3 +4,45 @@
 #main-header {
   border: 1px solid black;
 }
+
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-flex;
+    flex-grow: 1;
+    margin-left: 5%;
+    margin-right: 5%
+}
+
+.active {
+  color: yellow;
+}
+
+.disabled {
+  color: grey;
+}
+
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+
+a > .disabled {
+  color: purple;
+}
+
+.grandparent > h4 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#iam-red {
+  color: red;
+}
+
+#iam-blue {
+  color: blue;
+}
+
+input {
+  height: 25px;
+}

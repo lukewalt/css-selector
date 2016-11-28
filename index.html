@@ -5,32 +5,38 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
+    <!-- Convert the ul in the navigation element into a series of horizontal links with # as the href value, without bullets, and have some space between them horizontally. -->
     <header id="main-header">
-      <nav>
+      <nav id="main-nav">
         <ul>
           <li>
-            <a href="#" id="home">Home</a>
+            <a href="home.html" id="home">Home</a>
           </li>
-          <li>Profile</li>
-          <li>Blog</li>
+          <li>
+            <a href="profile.html" id="profile">Profile</a>
+          </li>
+          <li>
+            <a href="blog.html" id="blog">Blog</a>
+          </li>
         </ul>
       </nav>
     </header>
+    <article>
 
-    <section>
-      <div class="month-list">
-        <ul>
-          <li>
-            <a href="#">January</a>
-            <span class="disabled">My favorite month</span>
-          </li>
-          <li>
-            <a href="#">
-              <span class="active">February</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
+      <section>
+        <div class="month-list">
+          <ul>
+            <li>
+              <a href="#">January</a>
+              <span class="disabled">My favorite month</span>
+            </li>
+            <li>
+              <a href="#">
+                <span class="active">February</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
                 <span class="disabled">March</span>
               </a>
             </li>
@@ -66,9 +72,9 @@
           <div class="parent">
             <h4>Child of parent</h4>
             <div>
-              <div>I'm red!</div>
-              <h4>I'm red's sister
-              <div>I'm blue!</div>
+              <div id="iam-red">I'm red!</div>
+              <h4>I'm red's sister</h4>
+              <div id="iam-blue">I'm blue!</div>
               <h4>I'm blue's brother</h4>
             </div>
           </div>
@@ -76,29 +82,32 @@
         </div>
       </section>
 
-      <footer class="padded">
+    </article>
 
-        <div class="disclaimer">
-          Only one purchase per household.
-          <a href="#">
-            <span class="footer-link">
-              <span class="disabled">
-                Privacy Policy
-              </span>
+    <footer class="padded">
+
+      <div class="disclaimer">
+        Only one purchase per household.
+        <a href="#">
+          <span class="footer-link">
+            <span class="disabled">
+              Privacy Policy
             </span>
-        </div>
+          </span>
+        </a>
+      </div>
 
-        <div class="promo">
-          Purchase a book today and receive the eBook for free!
-        </div>
+      <div class="promo">
+        Purchase a book today and receive the eBook for free!
+      </div>
 
-        <span>
-            <input type="text" name="email" placeholder="Enter your email address">
-            <input type="text" name="name" placeholder="Enter your name">
-            <input type="tel" name="telephone" placeholder="Enter your telephone number">
-        </span>
+      <span>
+          <input type="text" name="email" placeholder="Enter your email address">
+          <input type="text" name="name" placeholder="Enter your name">
+          <input type="tel" name="telephone" placeholder="Enter your telephone number">
+      </span>
 
-      </footer>
+    </footer>
 
   </body>
 </html>
